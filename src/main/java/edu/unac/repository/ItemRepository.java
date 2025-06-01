@@ -1,4 +1,7 @@
 package edu.unac.repository;
 
-public interface ItemRepository {
+import edu.unac.domain.Item;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ItemRepository extends JpaRepository<Item, Long> {
 }
