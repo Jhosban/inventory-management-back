@@ -20,4 +20,5 @@ public class Item {
     private String description = "";
     private int totalQuantity;
     private Boolean isAvailable = true;
+
 }
