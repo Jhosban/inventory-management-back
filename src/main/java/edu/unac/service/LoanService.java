@@ -45,6 +45,8 @@ public class LoanService {
     if (availableItems < loan.getQuantity()) {
       throw new IllegalStateException("Not enough available items for the requested quantity");
     }
+
+    item.setIsAvailable(false);
     itemRepository.save(item);
     return loanRepository.save(loan);
   }
@@ -53,10 +55,14 @@ public class LoanService {
     Loan loan = loanRepository.findById(loanId)
             .orElseThrow(() -> new IllegalArgumentException("Loan not found"));
 
+    Item item = itemRepository.findById(loan.getItemId())
+            .orElseThrow(() -> new IllegalArgumentException("Item not found"));
+
     if (loan.getStartDate() <= System.currentTimeMillis()){
         throw new IllegalStateException("Loan cannot be cancelled after it has started");
     }
 
+    item.setIsAvailable(true);
     return loanRepository.delete(loanId);
   }
 

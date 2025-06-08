@@ -2,6 +2,7 @@ package edu.unac.service;
 
 import edu.unac.domain.Item;
 import edu.unac.repository.ItemRepository;
+import edu.unac.repository.LoanRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,9 @@ public class ItemService {
     @Autowired
     private ItemRepository itemRepository;
 
+    @Autowired
+    private LoanRepository loanRepository;
+
     public ItemService(ItemRepository itemRepository) {
         this.itemRepository = itemRepository;
     }
@@ -21,6 +25,8 @@ public class ItemService {
         if (item.getName() == null || item.getName().length() < 3) throw new IllegalArgumentException("Item name must be at least 3 characters long");
 
         if (item.getTotalQuantity() < 1) throw new IllegalArgumentException("Total quantity must be greater than zero");
+
+        if (itemRepository.findByName(item.getName()).isPresent()) throw new IllegalArgumentException("Item with this name already exists");
 
         return itemRepository.save(item);
     }
@@ -43,6 +49,8 @@ public class ItemService {
     }
 
     public void deleteItem(Long id) {
+        if (!loanRepository.findByItemId(id).isEmpty()) throw new IllegalStateException("Cannot delete item with active loans");
+
         itemRepository.deleteById(id);
     }
 }
