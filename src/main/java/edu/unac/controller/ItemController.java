@@ -45,11 +45,7 @@ public class ItemController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteItem(@PathVariable("id") Long id) {
-        try {
-            itemService.deleteItem(id);
-            return ResponseEntity.noContent().build();
-        } catch (IllegalStateException e) {
-            return ResponseEntity.badRequest().body(null);
-        }
+        itemService.deleteItem(id);
+        return ResponseEntity.noContent().build();
     }
 }

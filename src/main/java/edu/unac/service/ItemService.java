@@ -17,9 +17,8 @@ public class ItemService {
     @Autowired
     private LoanRepository loanRepository;
 
-    public ItemService(ItemRepository itemRepository, LoanRepository loanRepository) {
+    public ItemService(ItemRepository itemRepository) {
         this.itemRepository = itemRepository;
-        this.loanRepository = loanRepository;
     }
 
     public Item createItem(Item item) {

@@ -30,7 +30,6 @@ private final LoanService loanService;
             Loan createdLoan = loanService.registerLoan(loan);
             return ResponseEntity.status(HttpStatus.CREATED).body(createdLoan);
         } catch (IllegalArgumentException | IllegalStateException e) {
-            System.out.print("Error registering loan: " + e.getMessage());
             return ResponseEntity.badRequest().body(null);
         }
     }

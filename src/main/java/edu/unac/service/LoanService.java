@@ -63,7 +63,7 @@ public class LoanService {
     }
 
     if(loan.isCancelled()) {
-      throw new IllegalStateException("Loan is already cancelled");
+      throw new IllegalArgumentException("Loan is already cancelled");
     }
 
     item.setIsAvailable(true);
@@ -85,6 +85,7 @@ public class LoanService {
     List<Loan> loans = loanRepository.findByItemIdAndStartDateBetween(itemId, startDate, endDate);
 
     int reservedItems = loans.stream()
+            .filter(loan -> !loan.isCancelled())
             .mapToInt(Loan::getQuantity)
             .sum();
 
