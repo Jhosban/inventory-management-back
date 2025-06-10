@@ -63,7 +63,8 @@ public class LoanService {
     }
 
     item.setIsAvailable(true);
-    return loanRepository.delete(loanId);
+    itemRepository.save(item);
+    return loanRepository.save(loan);
   }
 
   public List<Loan> getLoansByItemId(Long itemId) {
@@ -74,16 +75,16 @@ public class LoanService {
             return loanRepository.findAll();
   }
 
-  public int calculateAvalibleItems(Long itemId, Long startDate, Long endDate){
+  public int calculateAvalibleItems(Long itemId, Long startDate, Long endDate) {
     Item item = itemRepository.findById(itemId)
             .orElseThrow(() -> new IllegalArgumentException("Item not found"));
 
     int availableItems = item.getTotalQuantity();
 
-    List<Loan> loans = loanRepository.findByItemIdAndDateRange(itemId, startDate, endDate);
+    List<Loan> loans = loanRepository.findByItemIdAndStartDateBetween(itemId, startDate, endDate);
 
     int reservedItems = loans.stream()
-            .mapToInt(Loan ::getQuantity)
+            .mapToInt(Loan::getQuantity)
             .sum();
 
     return availableItems - reservedItems;
