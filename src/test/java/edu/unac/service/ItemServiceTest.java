@@ -151,7 +151,7 @@ class ItemServiceTest {
     @Test
     void deleteItemWithActiveLoansTest() {
         Item item = new Item(1L, "Laptop", "Electronics", 10, true);
-        Loan loan = new Loan(1L, item.getId(), 1, System.currentTimeMillis(), System.currentTimeMillis() + 86400000, "Jose Pedro");
+        Loan loan = new Loan(1L, item.getId(), 1, System.currentTimeMillis(), System.currentTimeMillis() + 86400000, "Jose Pedro", false);
 
         when(itemRepository.findById(item.getId())).thenReturn(Optional.of(item));
         when(loanRepository.findByItemId(item.getId())).thenReturn(List.of(loan));

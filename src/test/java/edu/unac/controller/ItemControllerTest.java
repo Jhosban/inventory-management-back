@@ -15,12 +15,11 @@ import org.springframework.test.web.servlet.MockMvc;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.hasSize;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class DeviceControllerTest {
+class ItemControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
@@ -31,11 +30,12 @@ class DeviceControllerTest {
     private ItemRepository itemRepository;
 
     @Autowired
-    private LoanRepository LoanRepository;
+    private  LoanRepository loanRepository;
 
     @BeforeEach
     void setup() {
         itemRepository.deleteAll();
+        loanRepository.deleteAll();
     }
 
     @Test
@@ -43,11 +43,11 @@ class DeviceControllerTest {
         Item item = new Item(null, "Laptop", "Electronics",10, true);
 
         mockMvc.perform(
-            post("/api/items")
-                .contentType("application/json")
-                .content(objectMapper.writeValueAsString(item))
-        ).andExpect(status().isCreated())
-         .andExpect(jsonPath("$.name").value("Laptop"));
+                        post("/api/items")
+                                .contentType("application/json")
+                                .content(objectMapper.writeValueAsString(item))
+                ).andExpect(status().isCreated())
+                .andExpect(jsonPath("$.name").value("Laptop"));
     }
 
     @Test
@@ -55,9 +55,9 @@ class DeviceControllerTest {
         Item item = new Item(null, null, "Electronics", 10, true);
 
         mockMvc.perform(
-            post("/api/items")
-                .contentType("application/json")
-                .content(objectMapper.writeValueAsString(item))
+                post("/api/items")
+                        .contentType("application/json")
+                        .content(objectMapper.writeValueAsString(item))
         ).andExpect(status().isBadRequest());
     }
 
@@ -69,9 +69,9 @@ class DeviceControllerTest {
         itemRepository.save(item2);
 
         mockMvc.perform(
-            get("/api/items")
-        ).andExpect(status().isOk())
-        .andExpect(jsonPath("$", hasSize(2)));
+                        get("/api/items")
+                ).andExpect(status().isOk())
+                .andExpect(jsonPath("$", hasSize(2)));
     }
 
     @Test
@@ -82,11 +82,11 @@ class DeviceControllerTest {
         savedItem.setName("Laptop Pro");
 
         mockMvc.perform(
-            put("/api/items/" + savedItem.getId())
-                .contentType("application/json")
-                .content(objectMapper.writeValueAsString(savedItem))
-        ).andExpect(status().isOk())
-         .andExpect(jsonPath("$.name").value("Laptop Pro"));
+                        put("/api/items/" + savedItem.getId())
+                                .contentType("application/json")
+                                .content(objectMapper.writeValueAsString(savedItem))
+                ).andExpect(status().isOk())
+                .andExpect(jsonPath("$.name").value("Laptop Pro"));
     }
 
     @Test
@@ -97,9 +97,9 @@ class DeviceControllerTest {
         savedItem.setName(null);
 
         mockMvc.perform(
-            put("/api/items/" + savedItem.getId())
-                .contentType("application/json")
-                .content(objectMapper.writeValueAsString(savedItem))
+                put("/api/items/" + savedItem.getId())
+                        .contentType("application/json")
+                        .content(objectMapper.writeValueAsString(savedItem))
         ).andExpect(status().isBadRequest());
     }
 
@@ -109,7 +109,7 @@ class DeviceControllerTest {
         Item savedItem = itemRepository.save(item);
 
         mockMvc.perform(
-            delete("/api/items/" + savedItem.getId())
+                delete("/api/items/" + savedItem.getId())
         ).andExpect(status().isNoContent());
 
         assertFalse(itemRepository.findById(savedItem.getId()).isPresent());
@@ -120,11 +120,11 @@ class DeviceControllerTest {
         Item item = new Item(null, "Laptop", "Electronics", 10, true);
         Item savedItem = itemRepository.save(item);
 
-        Loan loan = new Loan(null, savedItem.getId(), 1, System.currentTimeMillis(), System.currentTimeMillis() + 86400000, "Jose Pedro");
-        LoanRepository.save(loan);
+        Loan loan = new Loan(null, savedItem.getId(), 1, System.currentTimeMillis(), System.currentTimeMillis() + 86400000, "Jose Pedro", false);
+        loanRepository.save(loan);
 
         mockMvc.perform(
-            delete("/api/items/" + savedItem.getId())
+                delete("/api/items/" + savedItem.getId())
         ).andExpect(status().isBadRequest());
     }
 }

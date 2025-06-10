@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Enhance ItemService with LoanRepository integration and add unit tests for ItemService">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/controller/ItemControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
     "JUnit.DeviceControllerTest.deleteItemActiveLoanTest.executor": "Run",
     "JUnit.DeviceControllerTest.deleteItemTest.executor": "Run",
     "JUnit.DeviceControllerTest.executor": "Coverage",
+    "JUnit.ItemControllerTest.executor": "Coverage",
     "JUnit.ItemServiceTest.deleteItemTest.executor": "Run",
     "JUnit.ItemServiceTest.deleteItemWithActiveLoansTest.executor": "Run",
     "JUnit.ItemServiceTest.executor": "Coverage",
@@ -85,7 +85,7 @@
       <recent name="edu.unac.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeviceControllerTest">
+  <component name="RunManager" selected="JUnit.ItemControllerTest">
     <configuration name="DeviceControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InventoryManagementSystem" />
       <extension name="coverage">
@@ -97,22 +97,6 @@
       <option name="PACKAGE_NAME" value="edu.unac.controller" />
       <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeviceControllerTest.createItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
-      <option name="METHOD_NAME" value="createItemTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +133,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ItemControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InventoryManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.unac.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.ItemControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InventoryManagementSystem" />
       <extension name="coverage">
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemControllerTest" />
         <item itemvalue="JUnit.DeviceControllerTest" />
         <item itemvalue="JUnit.ItemServiceTest" />
         <item itemvalue="JUnit.DeviceControllerTest.deleteItemActiveLoanTest" />
         <item itemvalue="JUnit.DeviceControllerTest.deleteItemTest" />
-        <item itemvalue="JUnit.DeviceControllerTest.createItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,13 +218,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582425782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582943728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.controller.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749579889244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749582925662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
     </SUITE>
   </component>
