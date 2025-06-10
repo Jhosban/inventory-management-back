@@ -18,7 +18,7 @@ public class Loan {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
-  private Long ItemId;
+  private Long itemId;
   private int quantity;
   private Long startDate;
   private Long endDate;

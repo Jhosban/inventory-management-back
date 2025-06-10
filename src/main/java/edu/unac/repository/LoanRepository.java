@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface LoanRepository  extends JpaRepository<Loan, Long> {
     List<Loan> findByItemId(Long ItemId);
-    List<Loan> findByItemIdAndDateRange(Long itemId, Long startDate, Long endDate);
-    Loan delete(Long loanId);
+    List<Loan> findByItemIdAndStartDateBetween(Long itemId, Long startTimestamp, Long endTimestamp);
+
 }
