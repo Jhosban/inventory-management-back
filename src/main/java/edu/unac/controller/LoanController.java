@@ -27,8 +27,8 @@ private final LoanService loanService;
     @PostMapping
     public ResponseEntity<Loan> registerLoan(@RequestBody Loan loan) {
         try {
-            Loan created = loanService.registerLoan(loan);
-            return ResponseEntity.status(HttpStatus.CREATED).body(created);
+            Loan createdLoan = loanService.registerLoan(loan);
+            return ResponseEntity.status(HttpStatus.CREATED).body(createdLoan);
         } catch (IllegalArgumentException | IllegalStateException e) {
             System.out.print("Error registering loan: " + e.getMessage());
             return ResponseEntity.badRequest().body(null);
@@ -46,14 +46,6 @@ private final LoanService loanService;
             // Loan cannot be cancelled after it has started
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }
-    }
-    @GetMapping("/id/{itemId}")
-    public ResponseEntity<List<Loan>> getLoansByItemId(@PathVariable("itemId") Long itemId) {
-        List<Loan> loans = loanService.getLoansByItemId(itemId);
-        if (loans.isEmpty()) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-        }
-        return ResponseEntity.ok(loans);
     }
 
 }
