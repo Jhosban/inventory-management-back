@@ -36,14 +36,13 @@ private final LoanService loanService;
     }
 
     @PutMapping("/{id}/cancel")
-    public ResponseEntity<Loan> cancelLoan(@RequestBody Long loanId) {
+    public ResponseEntity<Loan> cancelLoan(@PathVariable("id") Long loanId) {
         try {
             Loan cancelled = loanService.cancelLoan(loanId);
             return ResponseEntity.ok(cancelled);
         } catch (IllegalArgumentException e) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         } catch (IllegalStateException e) {
-            // Loan cannot be cancelled after it has started
             return ResponseEntity.status(HttpStatus.CONFLICT).build();
         }
     }

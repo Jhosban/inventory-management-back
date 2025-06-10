@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Enhance ItemService with LoanRepository integration and add unit tests for ItemService">
+    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="functional tests completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InventoryManagementSystem.executor": "Run",
+    "Cucumber Java.Feature: Inventory.executor": "Coverage",
     "JUnit.DeviceControllerTest.createItemTest.executor": "Run",
     "JUnit.DeviceControllerTest.deleteItemActiveLoanTest.executor": "Run",
     "JUnit.DeviceControllerTest.deleteItemTest.executor": "Run",
@@ -89,7 +91,7 @@
       <recent name="edu.unac.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Inventory">
+  <component name="RunManager" selected="Application.InventoryManagementSystem">
     <configuration name="InventoryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.unac.InventoryManagementSystem" />
       <module name="InventoryManagementSystem" />
@@ -170,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Inventory" />
         <item itemvalue="Application.InventoryManagementSystem" />
+        <item itemvalue="Cucumber Java.Feature: Inventory" />
         <item itemvalue="JUnit.DeviceControllerTest" />
         <item itemvalue="JUnit.ItemServiceTest" />
         <item itemvalue="JUnit.DeviceControllerTest.deleteItemActiveLoanTest" />
@@ -203,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749579988356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="functional tests completed">
+      <option name="closed" value="true" />
+      <created>1749590462512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749590462512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,17 +230,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
     <MESSAGE value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
+    <MESSAGE value="functional tests completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="functional tests completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582425782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582425782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.unac.controller.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749579889244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/inventory_management_back$Feature__Inventory.ic" NAME="Feature: Inventory Coverage Results" MODIFIED="1749590375332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
   </component>
 </project>
