@@ -23,4 +23,5 @@ public class Loan {
   private Long startDate;
   private Long endDate;
   private String requestedBy;
+  private boolean isCancelled = false;
 }

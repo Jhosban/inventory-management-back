@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
+    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/domain/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/domain/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testLoan" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +59,7 @@
     "Application.InventoryManagementSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "estructuraTest",
+    "git-widget-placeholder": "ramaJohn",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1",
