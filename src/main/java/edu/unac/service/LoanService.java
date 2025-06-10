@@ -62,13 +62,14 @@ public class LoanService {
         throw new IllegalStateException("Loan cannot be cancelled after it has started");
     }
 
+    if(loan.isCancelled()) {
+      throw new IllegalStateException("Loan is already cancelled");
+    }
+
     item.setIsAvailable(true);
     itemRepository.save(item);
+    loan.setCancelled(true);
     return loanRepository.save(loan);
-  }
-
-  public List<Loan> getLoansByItemId(Long itemId) {
-        return loanRepository.findByItemId(itemId);
   }
 
   public List<Loan> getAllLoans() {
