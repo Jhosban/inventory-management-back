@@ -171,7 +171,7 @@ class LoanServiceTest {
 
         LoanService loanService = new LoanService(loanRepository, itemRepository);
 
-        assertThrows(IllegalArgumentException.class,
+        assertThrows(IllegalStateException.class,
                 () -> loanService.cancelLoan(1L));
     }
 
