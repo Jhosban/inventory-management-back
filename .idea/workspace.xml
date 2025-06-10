@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
+    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +17,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testLoan" />
+        <entry key="$PROJECT_DIR$" value="jhosbanBranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +45,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xusFGPEigQkZHLcIZiA7grPIYk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -53,7 +57,7 @@
     "Application.InventoryManagementSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "estructuraTest",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1",
@@ -82,6 +86,7 @@
         <item itemvalue="Application.InventoryManagementSystem" />
         <item itemvalue="Application.InventoryManagementSystem" />
         <item itemvalue="Application.InventoryManagementSystem" />
+        <item itemvalue="Application.InventoryManagementSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748811842246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor Loan entity and repository methods, add LoanController tests">
+      <option name="closed" value="true" />
+      <created>1749571445498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749571445498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +131,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
+    <MESSAGE value="Refactor Loan entity and repository methods, add LoanController tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Loan entity and repository methods, add LoanController tests" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749568470169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.unac.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.unac.service.*</FILTER>
+    </SUITE>
   </component>
 </project>
