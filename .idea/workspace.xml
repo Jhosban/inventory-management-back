@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem">
+    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Enhance ItemService with LoanRepository integration and add unit tests for ItemService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/controller/LoanControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/unac/controller/LoanControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/config/WebConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -26,6 +28,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="jhosbanBranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,17 +39,17 @@
     &quot;assignee&quot;: &quot;Jhosban&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Jhosban/inventory-management-back.git&quot;,
-    &quot;accountId&quot;: &quot;8bd21f58-c55d-4712-b585-79cfeb8cf528&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jhosban/inventory-management-back.git",
+    "accountId": "e500c95e-0b8f-453b-b391-31e662add64b"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xusFGPEigQkZHLcIZiA7grPIYk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -56,39 +59,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InventoryManagementSystem.executor": "Run",
-    "JUnit.LoanControllerTest.cancelLoanConflictTest.executor": "Coverage",
-    "JUnit.LoanControllerTest.cancelLoanConflictTest1.executor": "Run",
-    "JUnit.LoanControllerTest.cancelLoanNotFoundTest.executor": "Coverage",
-    "JUnit.LoanControllerTest.cancelLoanTest.executor": "Coverage",
-    "JUnit.LoanControllerTest.executor": "Coverage",
-    "JUnit.LoanControllerTest.getAllLoansTest.executor": "Coverage",
-    "JUnit.LoanControllerTest.registerLoanInvalidItemTest.executor": "Coverage",
-    "JUnit.LoanControllerTest.registerLoanTest.executor": "Run",
-    "JUnit.LoanServiceTest.availableItemsLessThanRequestedTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.calculateAvailableItemsTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.cancelLoanAlreadyCancelledTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.cancelLoanAlreadyStartedTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.cancelLoanNotFoundTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.cancelLoanTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.dateBeforeCurrentTest.executor": "Run",
-    "JUnit.LoanServiceTest.endDateBeforeStartDateTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.loanIsAlreadyCancelledTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.quantityLessThanOneTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.registerLoanItemNotAvailableTest.executor": "Coverage",
-    "JUnit.LoanServiceTest.registerLoanItemNotFoundTest.executor": "Run",
-    "JUnit.LoanServiceTest.registerLoanSavedTest.executor": "Run",
-    "JUnit.LoanServiceTest.startDateInThePastTest.executor": "Coverage",
+    "JUnit.DeviceControllerTest.createItemTest.executor": "Run",
+    "JUnit.DeviceControllerTest.deleteItemActiveLoanTest.executor": "Run",
+    "JUnit.DeviceControllerTest.deleteItemTest.executor": "Run",
+    "JUnit.DeviceControllerTest.executor": "Coverage",
+    "JUnit.ItemServiceTest.deleteItemTest.executor": "Run",
+    "JUnit.ItemServiceTest.deleteItemWithActiveLoansTest.executor": "Run",
+    "JUnit.ItemServiceTest.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ramaJohn",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1",
+    "last_opened_file_path": "C:/Users/super/OneDrive/Documentos/inventory-management-back/src/main/java/edu/unac",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InventoryManagementSystem">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\super\OneDrive\Documentos\inventory-management-back\src\main\java\edu\unac" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.unac.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: Inventory">
     <configuration name="InventoryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.unac.InventoryManagementSystem" />
       <module name="InventoryManagementSystem" />
@@ -102,7 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanControllerTest.cancelLoanConflictTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Inventory" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Inventory.feature" />
+      <option name="GLUE" value="edu.unac.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="InventoryManagementSystem" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Inventory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InventoryManagementSystem" />
       <extension name="coverage">
         <pattern>
@@ -111,68 +131,50 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.unac.controller" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
-      <option name="METHOD_NAME" value="cancelLoanConflictTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceControllerTest.deleteItemActiveLoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InventoryManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.unac.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
+      <option name="METHOD_NAME" value="deleteItemActiveLoanTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoanControllerTest.cancelLoanConflictTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InventoryManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.unac.controller.*" />
+          <option name="PATTERN" value="edu.unac.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
-      <option name="METHOD_NAME" value="cancelLoanConflictTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoanControllerTest.cancelLoanNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
-      <option name="METHOD_NAME" value="cancelLoanNotFoundTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoanControllerTest.cancelLoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
-      <option name="METHOD_NAME" value="cancelLoanTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="edu.unac.service" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Inventory" />
         <item itemvalue="Application.InventoryManagementSystem" />
-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanConflictTest1" />
-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanConflictTest" />
-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanNotFoundTest" />
-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanTest" />
+        <item itemvalue="JUnit.DeviceControllerTest" />
+        <item itemvalue="JUnit.ItemServiceTest" />
+        <item itemvalue="JUnit.DeviceControllerTest.deleteItemActiveLoanTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748811842246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enhance ItemService with LoanRepository integration and add unit tests for ItemService">
+      <option name="closed" value="true" />
+      <created>1749579988356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749579988356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,65 +219,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
+    <MESSAGE value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_cancelLoanTest.ic" NAME="LoanServiceTest.cancelLoanTest Coverage Results" MODIFIED="1749586472548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest_cancelLoanNotFoundTest.ic" NAME="LoanControllerTest.cancelLoanNotFoundTest Coverage Results" MODIFIED="1749590672102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582425782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.controller.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest.ic" NAME="LoanControllerTest Coverage Results" MODIFIED="1749590494678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest_registerLoanInvalidItemTest.ic" NAME="LoanControllerTest.registerLoanInvalidItemTest Coverage Results" MODIFIED="1749590367685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest_getAllLoansTest.ic" NAME="LoanControllerTest.getAllLoansTest Coverage Results" MODIFIED="1749590454712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_quantityLessThanOneTest.ic" NAME="LoanServiceTest.quantityLessThanOneTest Coverage Results" MODIFIED="1749585376358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest_cancelLoanConflictTest.ic" NAME="LoanControllerTest.cancelLoanConflictTest Coverage Results" MODIFIED="1749590711470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest_cancelLoanTest.ic" NAME="LoanControllerTest.cancelLoanTest Coverage Results" MODIFIED="1749590563031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_calculateAvailableItemsTest.ic" NAME="LoanServiceTest.calculateAvailableItemsTest Coverage Results" MODIFIED="1749585587589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749579889244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_availableItemsLessThanRequestedTest.ic" NAME="LoanServiceTest.availableItemsLessThanRequestedTest Coverage Results" MODIFIED="1749585665331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_cancelLoanAlreadyStartedTest.ic" NAME="LoanServiceTest.cancelLoanAlreadyStartedTest Coverage Results" MODIFIED="1749587141713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_cancelLoanNotFoundTest.ic" NAME="LoanServiceTest.cancelLoanNotFoundTest Coverage Results" MODIFIED="1749585770481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_startDateInThePastTest.ic" NAME="LoanServiceTest.startDateInThePastTest Coverage Results" MODIFIED="1749585414737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest.ic" NAME="LoanServiceTest Coverage Results" MODIFIED="1749586933343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_cancelLoanAlreadyCancelledTest.ic" NAME="LoanServiceTest.cancelLoanAlreadyCancelledTest Coverage Results" MODIFIED="1749587213010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_loanIsAlreadyCancelledTest.ic" NAME="LoanServiceTest.loanIsAlreadyCancelledTest Coverage Results" MODIFIED="1749585919830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_registerLoanItemNotAvailableTest.ic" NAME="LoanServiceTest.registerLoanItemNotAvailableTest Coverage Results" MODIFIED="1749585208959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_endDateBeforeStartDateTest.ic" NAME="LoanServiceTest.endDateBeforeStartDateTest Coverage Results" MODIFIED="1749585492361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inventory_management_back1$LoanControllerTest_cancelLoanConflictTest1.ic" NAME="LoanControllerTest.cancelLoanConflictTest1 Coverage Results" MODIFIED="1749590856261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.controller.*</FILTER>
     </SUITE>
   </component>
 </project>
