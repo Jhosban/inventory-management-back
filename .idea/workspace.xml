@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem">
+    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Enhance ItemService with LoanRepository integration and add unit tests for ItemService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/service/ItemServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/unac/service/ItemServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/ItemController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -60,10 +58,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InventoryManagementSystem.executor": "Debug",
+    "JUnit.DeviceControllerTest.createItemTest.executor": "Run",
+    "JUnit.DeviceControllerTest.deleteItemActiveLoanTest.executor": "Run",
+    "JUnit.DeviceControllerTest.deleteItemTest.executor": "Run",
+    "JUnit.DeviceControllerTest.executor": "Coverage",
     "JUnit.ItemServiceTest.deleteItemTest.executor": "Run",
+    "JUnit.ItemServiceTest.deleteItemWithActiveLoansTest.executor": "Run",
     "JUnit.ItemServiceTest.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "jhosbanBranch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -71,18 +76,74 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ItemServiceTest">
-    <configuration name="InventoryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.InventoryManagementSystem" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.unac.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DeviceControllerTest">
+    <configuration name="DeviceControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InventoryManagementSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.unac.*" />
+          <option name="PATTERN" value="edu.unac.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceControllerTest.createItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InventoryManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.unac.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
+      <option name="METHOD_NAME" value="createItemTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceControllerTest.deleteItemActiveLoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InventoryManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.unac.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
+      <option name="METHOD_NAME" value="deleteItemActiveLoanTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceControllerTest.deleteItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InventoryManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.unac.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.DeviceControllerTest" />
+      <option name="METHOD_NAME" value="deleteItemTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,45 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemServiceTest.deleteItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
-      <option name="METHOD_NAME" value="deleteItemTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemServiceTest.deleteItemWithActiveLoansTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
-      <option name="METHOD_NAME" value="deleteItemWithActiveLoansTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeviceControllerTest" />
         <item itemvalue="JUnit.ItemServiceTest" />
-        <item itemvalue="JUnit.ItemServiceTest.deleteItemWithActiveLoansTest" />
-        <item itemvalue="JUnit.ItemServiceTest.deleteItemTest" />
-        <item itemvalue="Application.InventoryManagementSystem" />
-        <item itemvalue="Application.InventoryManagementSystem" />
+        <item itemvalue="JUnit.DeviceControllerTest.deleteItemActiveLoanTest" />
+        <item itemvalue="JUnit.DeviceControllerTest.deleteItemTest" />
+        <item itemvalue="JUnit.DeviceControllerTest.createItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748811842246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enhance ItemService with LoanRepository integration and add unit tests for ItemService">
+      <option name="closed" value="true" />
+      <created>1749579988356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749579988356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,13 +214,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
+    <MESSAGE value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance ItemService with LoanRepository integration and add unit tests for ItemService" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582425782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.unac.controller.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749578928513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749579889244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>edu.unac.service.*</FILTER>
     </SUITE>
   </component>
