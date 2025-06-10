@@ -1,0 +1,1023 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ /dev/null	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
+@@ -1,99 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+-new file mode 100644
+---- /dev/null	(date 1748802788294)
+-+++ b/.idea/workspace.xml	(date 1748802788294)
+-@@ -0,0 +1,71 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="AutoImportSettings">
+-+    <option name="autoReloadType" value="SELECTIVE" />
+-+  </component>
+-+  <component name="ChangeListManager">
+-+    <list default="true" id="0aabe5e4-dbbc-4087-9f7b-2a4c90188b3d" name="Changes" comment="" />
+-+    <option name="SHOW_DIALOG" value="false" />
+-+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-+    <option name="LAST_RESOLUTION" value="IGNORE" />
+-+  </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Interface" />
+-+        <option value="Class" />
+-+      </list>
+-+    </option>
+-+  </component>
+-+  <component name="Git.Settings">
+-+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-+      <map>
+-+        <entry key="$PROJECT_DIR$" value="branchJonh" />
+-+      </map>
+-+    </option>
+-+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-+  </component>
+-+  <component name="ProjectColorInfo"><![CDATA[{
+-+  "associatedIndex": 1
+-+}]]></component>
+-+  <component name="ProjectId" id="2xuy3fNGA24z896fckMwfhw2kDl" />
+-+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-+  <component name="ProjectViewState">
+-+    <option name="hideEmptyMiddlePackages" value="true" />
+-+    <option name="showLibraryContents" value="true" />
+-+  </component>
+-+  <component name="PropertiesComponent"><![CDATA[{
+-+  "keyToString": {
+-+    "RunOnceActivity.ShowReadmeOnStart": "true",
+-+    "RunOnceActivity.git.unshallow": "true",
+-+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-+    "git-widget-placeholder": "main",
+-+    "ignore.virus.scanning.warn.message": "true",
+-+    "kotlin-language-version-configured": "true",
+-+    "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1"
+-+  }
+-+}]]></component>
+-+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-+  <component name="TaskManager">
+-+    <task active="true" id="Default" summary="Default task">
+-+      <changelist id="0aabe5e4-dbbc-4087-9f7b-2a4c90188b3d" name="Changes" comment="" />
+-+      <created>1748802056073</created>
+-+      <option name="number" value="Default" />
+-+      <option name="presentableId" value="Default" />
+-+      <updated>1748802056073</updated>
+-+    </task>
+-+    <servers />
+-+  </component>
+-+  <component name="Vcs.Log.Tabs.Properties">
+-+    <option name="TAB_STATES">
+-+      <map>
+-+        <entry key="MAIN">
+-+          <value>
+-+            <State />
+-+          </value>
+-+        </entry>
+-+      </map>
+-+    </option>
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+-new file mode 100644
+---- /dev/null	(date 1748802657424)
+-+++ b/.idea/vcs.xml	(date 1748802657424)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="VcsDirectoryMappings">
+-+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49__Changes_.xml	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ /dev/null	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]" date="1748832556809" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 1/6/2025 21:49 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33__Changes_.xml	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ /dev/null	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]" date="1748802830823" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 1/6/2025 13:33 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ /dev/null	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
+@@ -1,104 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+-new file mode 100644
+---- /dev/null	(date 1748808114565)
+-+++ b/.idea/workspace.xml	(date 1748808114565)
+-@@ -0,0 +1,74 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="AutoImportSettings">
+-+    <option name="autoReloadType" value="SELECTIVE" />
+-+  </component>
+-+  <component name="ChangeListManager">
+-+    <list default="true" id="0aabe5e4-dbbc-4087-9f7b-2a4c90188b3d" name="Changes" comment="">
+-+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-+    </list>
+-+    <option name="SHOW_DIALOG" value="false" />
+-+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-+    <option name="LAST_RESOLUTION" value="IGNORE" />
+-+  </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Interface" />
+-+        <option value="Class" />
+-+      </list>
+-+    </option>
+-+  </component>
+-+  <component name="Git.Settings">
+-+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-+      <map>
+-+        <entry key="$PROJECT_DIR$" value="main" />
+-+      </map>
+-+    </option>
+-+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-+  </component>
+-+  <component name="ProjectColorInfo">{
+-+  &quot;associatedIndex&quot;: 1
+-+}</component>
+-+  <component name="ProjectId" id="2xuy3fNGA24z896fckMwfhw2kDl" />
+-+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-+  <component name="ProjectViewState">
+-+    <option name="hideEmptyMiddlePackages" value="true" />
+-+    <option name="showLibraryContents" value="true" />
+-+  </component>
+-+  <component name="PropertiesComponent"><![CDATA[{
+-+  "keyToString": {
+-+    "RunOnceActivity.ShowReadmeOnStart": "true",
+-+    "RunOnceActivity.git.unshallow": "true",
+-+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-+    "git-widget-placeholder": "branchJonh",
+-+    "ignore.virus.scanning.warn.message": "true",
+-+    "kotlin-language-version-configured": "true",
+-+    "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1"
+-+  }
+-+}]]></component>
+-+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-+  <component name="TaskManager">
+-+    <task active="true" id="Default" summary="Default task">
+-+      <changelist id="0aabe5e4-dbbc-4087-9f7b-2a4c90188b3d" name="Changes" comment="" />
+-+      <created>1748802056073</created>
+-+      <option name="number" value="Default" />
+-+      <option name="presentableId" value="Default" />
+-+      <updated>1748802056073</updated>
+-+    </task>
+-+    <servers />
+-+  </component>
+-+  <component name="Vcs.Log.Tabs.Properties">
+-+    <option name="TAB_STATES">
+-+      <map>
+-+        <entry key="MAIN">
+-+          <value>
+-+            <State />
+-+          </value>
+-+        </entry>
+-+      </map>
+-+    </option>
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+---- a/.idea/vcs.xml	(revision 9b4fc1d34b91a0ef7f24b499341ae00676728ec9)
+-+++ b/.idea/vcs.xml	(date 1748802830536)
+-@@ -1,6 +1,6 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-   <component name="VcsDirectoryMappings">
+--    <mapping directory="" vcs="Git" />
+-+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: src/main/java/edu/unac/config/WebConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/edu/unac/config/WebConfig.java b/src/main/java/edu/unac/config/WebConfig.java
+new file mode 100644
+--- /dev/null	(date 1749593342484)
++++ b/src/main/java/edu/unac/config/WebConfig.java	(date 1749593342484)
+@@ -0,0 +1,16 @@
++package edu.unac.config;
++
++import org.springframework.context.annotation.Configuration;
++import org.springframework.web.servlet.config.annotation.CorsRegistry;
++import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
++
++@Configuration
++public class WebConfig implements WebMvcConfigurer {
++    @Override
++    public void addCorsMappings(CorsRegistry registry) {
++        registry.addMapping("/**")
++                .allowedOrigins("http://localhost:5173")
++                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
++                .allowedHeaders("*");
++    }
++}
+Index: src/main/java/edu/unac/steps/InventorySteps.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/edu/unac/steps/InventorySteps.java b/src/main/java/edu/unac/steps/InventorySteps.java
+new file mode 100644
+--- /dev/null	(date 1749593342675)
++++ b/src/main/java/edu/unac/steps/InventorySteps.java	(date 1749593342675)
+@@ -0,0 +1,137 @@
++package edu.unac.steps;
++
++import io.cucumber.java.After;
++import io.cucumber.java.Before;
++import io.cucumber.java.en.*;
++import org.openqa.selenium.By;
++import org.openqa.selenium.PageLoadStrategy;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.chrome.ChromeDriver;
++import org.openqa.selenium.chrome.ChromeOptions;
++import org.openqa.selenium.support.ui.ExpectedCondition;
++import org.openqa.selenium.support.ui.ExpectedConditions;
++import org.openqa.selenium.support.ui.Select;
++import org.openqa.selenium.support.ui.WebDriverWait;
++import org.testng.Assert;
++
++import java.time.Duration;
++
++public class InventorySteps {
++
++    private ChromeDriver driver;
++
++    @Before
++    public void setUp(){
++        System.setProperty("webdriver.chrome.driver",
++                System.getProperty("user.dir") +
++                        "/src/main/java/edu/unac/drivers/chromedriver.exe");
++        ChromeOptions chromeOptions = new ChromeOptions();
++        chromeOptions.setBinary("C:\\Users\\super\\Downloads\\chrome-win64\\chrome-win64\\chrome.exe");
++        chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
++        driver = new ChromeDriver(chromeOptions);
++        driver.manage().window().maximize();
++        driver.get("http://localhost:5173/");
++    }
++
++    @After
++    public void tearDown() throws InterruptedException {
++        Thread.sleep(3000);
++        driver.quit();
++    }
++
++    //----------------------Crear item------------------------------------------
++
++    @Given("an item is registered with name car, description car for events, and total quantity")
++    public void an_item_is_registered_with_name_car_description_car_for_events_and_total_quantity() throws InterruptedException {
++        WebElement addButtonDevice = driver.findElement(By.id("addButtonItem"));
++        addButtonDevice.click();
++
++        WebElement nameTextBox = driver.findElement(By.id("name"));
++        WebElement descriptionTextBox = driver.findElement(By.id("description"));
++        WebElement totalQuantityTextBox = driver.findElement(By.id("totalQuantity"));
++        nameTextBox.sendKeys("car");
++        descriptionTextBox.sendKeys("car for events");
++        totalQuantityTextBox.sendKeys("5");
++
++        WebElement createButtonDevice = driver.findElement(By.id("create-buttonItem"));
++        createButtonDevice.click();
++
++        Thread.sleep(1000);
++
++        WebElement containerMessage = driver.findElement(By.id("swal2-html-container"));
++        String message = containerMessage.getText();
++        Assert.assertEquals("The item was created successfully", message,
++                "The error message does not match what was expected.\n.");
++        WebElement okButtonDevice = driver.findElement(By.xpath("/html/body/div[2]/div/div[6]/button[1]"));
++        okButtonDevice.click();
++
++    }
++
++    //------------------------------Crear prestamo---------------------------
++
++    @When("the user fills out the loan form with user Simon, item ID, quantity , start date, and end date")
++    public void the_user_fills_out_the_loan_form_with_user_simon_item_id_quantity_start_date_and_end_date() throws InterruptedException {
++        Thread.sleep(1000);
++
++        WebElement addButtonDevice = driver.findElement(By.id("addButtonItemLoad"));
++        addButtonDevice.click();
++
++        WebElement itemIdTextBox = driver.findElement(By.id("itemId"));
++        WebElement quantityTextBox = driver.findElement(By.id("quantity"));
++        WebElement startDateTextBox = driver.findElement(By.id("startDate"));
++        WebElement endDateTextBox = driver.findElement(By.id("endDate"));
++        WebElement requestedByTextBox = driver.findElement(By.id("requestedBy"));
++
++        itemIdTextBox.sendKeys("1");
++        quantityTextBox.sendKeys("2");
++        startDateTextBox.sendKeys("15/06/2025");
++        endDateTextBox.sendKeys("20/06/2025");
++        requestedByTextBox.sendKeys("Simon");
++
++        WebElement createButtonDevice = driver.findElement(By.id("create-buttonItem"));
++        createButtonDevice.click();
++
++        Thread.sleep(1000);
++    }
++    @Then("the loan should be registered successfully")
++    public void the_loan_should_be_registered_successfully() {
++        WebElement containerMessage = driver.findElement(By.id("swal2-html-container"));
++        String message = containerMessage.getText();
++        Assert.assertEquals("The Load was created successfully", message,
++                "The error message does not match what was expected.\n.");
++        WebElement okButtonDevice = driver.findElement(By.xpath("/html/body/div[2]/div/div[6]/button[1]"));
++        okButtonDevice.click();
++    }
++
++    @When("the user fills out the loan form again with user Simon, item ID , quantity  start date , and end date")
++    public void the_user_fills_out_the_loan_form_again_with_user_simon_item_id_quantity_start_date_and_end_date() throws InterruptedException {
++
++        WebElement addButtonDevice = driver.findElement(By.id("addButtonItemLoad"));
++        addButtonDevice.click();
++
++        WebElement itemIdTextBox = driver.findElement(By.id("itemId"));
++        WebElement quantityTextBox = driver.findElement(By.id("quantity"));
++        WebElement startDateTextBox = driver.findElement(By.id("startDate"));
++        WebElement endDateTextBox = driver.findElement(By.id("endDate"));
++        WebElement requestedByTextBox = driver.findElement(By.id("requestedBy"));
++
++        itemIdTextBox.sendKeys("1");
++        quantityTextBox.sendKeys("10");
++        startDateTextBox.sendKeys("15/06/2025");
++        endDateTextBox.sendKeys("20/06/2025");
++        requestedByTextBox.sendKeys("Simon");
++
++        WebElement createButtonDevice = driver.findElement(By.id("create-buttonItem"));
++        createButtonDevice.click();
++
++        Thread.sleep(1000);
++    }
++    @Then("the loan should not be registered")
++    public void the_loan_should_not_be_registered() {
++        WebElement containerMessage = driver.findElement(By.id("swal2-html-container"));
++        String message = containerMessage.getText();
++        Assert.assertEquals("Error Create Load", message,
++                "The error message does not match what was expected.\n.");
++    }
++
++}
+\ No newline at end of file
+Index: src/test/resources/Inventory.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/resources/Inventory.feature b/src/test/resources/Inventory.feature
+new file mode 100644
+--- /dev/null	(date 1749593342677)
++++ b/src/test/resources/Inventory.feature	(date 1749593342677)
+@@ -0,0 +1,9 @@
++Feature: Test pages form
++
++  Scenario: Validate Successful submission
++    Given an item is registered with name car, description car for events, and total quantity
++    When the user fills out the loan form with user Simon, item ID, quantity , start date, and end date
++    Then the loan should be registered successfully
++
++    When the user fills out the loan form again with user Simon, item ID , quantity  start date , and end date
++    Then the loan should not be registered
+\ No newline at end of file
+Index: src/main/java/edu/unac/service/ItemService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package edu.unac.service;\r\n\r\nimport edu.unac.domain.Item;\r\nimport edu.unac.repository.ItemRepository;\r\nimport edu.unac.repository.LoanRepository;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.util.List;\r\nimport java.util.Optional;\r\n\r\n@Service\r\npublic class ItemService {\r\n    @Autowired\r\n    private ItemRepository itemRepository;\r\n\r\n    @Autowired\r\n    private LoanRepository loanRepository;\r\n\r\n    public ItemService(ItemRepository itemRepository) {\r\n        this.itemRepository = itemRepository;\r\n    }\r\n\r\n    public Item createItem(Item item) {\r\n        if (item.getName() == null || item.getName().length() < 3) throw new IllegalArgumentException(\"Item name must be at least 3 characters long\");\r\n\r\n        if (item.getTotalQuantity() < 1) throw new IllegalArgumentException(\"Total quantity must be greater than zero\");\r\n\r\n        if (itemRepository.findByName(item.getName()).isPresent()) throw new IllegalArgumentException(\"Item with this name already exists\");\r\n\r\n        return itemRepository.save(item);\r\n    }\r\n\r\n    public List<Item> getAllItems() {\r\n        return itemRepository.findAll();\r\n    }\r\n\r\n    public Optional<Item> updateItem(Long id, Item item) {\r\n        if (item.getName() == null || item.getName().length() < 3) throw new IllegalArgumentException(\"Item name must be at least 3 characters long\");\r\n        if (item.getTotalQuantity() < 1) throw new IllegalArgumentException(\"Total quantity must be greater than zero\");\r\n\r\n        return itemRepository.findById(id).map(existingItem -> {\r\n            existingItem.setName(item.getName());\r\n            existingItem.setDescription(item.getDescription());\r\n            existingItem.setTotalQuantity(item.getTotalQuantity());\r\n\r\n            return itemRepository.save(existingItem);\r\n        });\r\n    }\r\n\r\n    public void deleteItem(Long id) {\r\n        if (!loanRepository.findByItemId(id).isEmpty()) throw new IllegalStateException(\"Cannot delete item with active loans\");\r\n\r\n        itemRepository.deleteById(id);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/edu/unac/service/ItemService.java b/src/main/java/edu/unac/service/ItemService.java
+--- a/src/main/java/edu/unac/service/ItemService.java	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ b/src/main/java/edu/unac/service/ItemService.java	(date 1749593342674)
+@@ -17,8 +17,9 @@
+     @Autowired
+     private LoanRepository loanRepository;
+ 
+-    public ItemService(ItemRepository itemRepository) {
++    public ItemService(ItemRepository itemRepository, LoanRepository loanRepository) {
+         this.itemRepository = itemRepository;
++        this.loanRepository = loanRepository;
+     }
+ 
+     public Item createItem(Item item) {
+Index: src/test/java/edu/unac/controller/ItemControllerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/edu/unac/controller/ItemControllerTest.java b/src/test/java/edu/unac/controller/ItemControllerTest.java
+new file mode 100644
+--- /dev/null	(date 1749593342675)
++++ b/src/test/java/edu/unac/controller/ItemControllerTest.java	(date 1749593342675)
+@@ -0,0 +1,130 @@
++package edu.unac.controller;
++
++import com.fasterxml.jackson.databind.ObjectMapper;
++import edu.unac.domain.Item;
++import edu.unac.domain.Loan;
++import edu.unac.repository.ItemRepository;
++import edu.unac.repository.LoanRepository;
++import org.junit.jupiter.api.BeforeEach;
++import org.junit.jupiter.api.Test;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
++import org.springframework.boot.test.context.SpringBootTest;
++import org.springframework.test.web.servlet.MockMvc;
++
++import static org.junit.jupiter.api.Assertions.*;
++import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
++import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
++import static org.hamcrest.Matchers.hasSize;
++
++@SpringBootTest
++@AutoConfigureMockMvc
++class ItemControllerTest {
++    @Autowired
++    private MockMvc mockMvc;
++
++    @Autowired
++    private ObjectMapper objectMapper;
++
++    @Autowired
++    private ItemRepository itemRepository;
++
++    @Autowired
++    private  LoanRepository loanRepository;
++
++    @BeforeEach
++    void setup() {
++        itemRepository.deleteAll();
++        loanRepository.deleteAll();
++    }
++
++    @Test
++    void createItemTest() throws Exception {
++        Item item = new Item(null, "Laptop", "Electronics",10, true);
++
++        mockMvc.perform(
++                        post("/api/items")
++                                .contentType("application/json")
++                                .content(objectMapper.writeValueAsString(item))
++                ).andExpect(status().isCreated())
++                .andExpect(jsonPath("$.name").value("Laptop"));
++    }
++
++    @Test
++    void createItemInvalidNameTest() throws Exception {
++        Item item = new Item(null, null, "Electronics", 10, true);
++
++        mockMvc.perform(
++                post("/api/items")
++                        .contentType("application/json")
++                        .content(objectMapper.writeValueAsString(item))
++        ).andExpect(status().isBadRequest());
++    }
++
++    @Test
++    void getAllItemsTest() throws Exception {
++        Item item1 = new Item(null, "Laptop", "Electronics", 10, true);
++        Item item2 = new Item(null, "Projector", "Electronics", 5, true);
++        itemRepository.save(item1);
++        itemRepository.save(item2);
++
++        mockMvc.perform(
++                        get("/api/items")
++                ).andExpect(status().isOk())
++                .andExpect(jsonPath("$", hasSize(2)));
++    }
++
++    @Test
++    void updateItemTest() throws Exception {
++        Item item = new Item(null, "Laptop", "Electronics", 10, true);
++        Item savedItem = itemRepository.save(item);
++
++        savedItem.setName("Laptop Pro");
++
++        mockMvc.perform(
++                        put("/api/items/" + savedItem.getId())
++                                .contentType("application/json")
++                                .content(objectMapper.writeValueAsString(savedItem))
++                ).andExpect(status().isOk())
++                .andExpect(jsonPath("$.name").value("Laptop Pro"));
++    }
++
++    @Test
++    void updateItemInvalidNameTest() throws Exception {
++        Item item = new Item(null, "Laptop", "Electronics", 10, true);
++        Item savedItem = itemRepository.save(item);
++
++        savedItem.setName(null);
++
++        mockMvc.perform(
++                put("/api/items/" + savedItem.getId())
++                        .contentType("application/json")
++                        .content(objectMapper.writeValueAsString(savedItem))
++        ).andExpect(status().isBadRequest());
++    }
++
++    @Test
++    void deleteItemTest() throws Exception {
++        Item item = new Item(null, "Laptop", "Electronics", 10, true);
++        Item savedItem = itemRepository.save(item);
++
++        mockMvc.perform(
++                delete("/api/items/" + savedItem.getId())
++        ).andExpect(status().isNoContent());
++
++        assertFalse(itemRepository.findById(savedItem.getId()).isPresent());
++    }
++
++    @Test
++    void deleteItemActiveLoanTest() throws Exception {
++        Item item = new Item(null, "Laptop", "Electronics", 10, true);
++        Item savedItem = itemRepository.save(item);
++
++        Loan loan = new Loan(null, savedItem.getId(), 1, System.currentTimeMillis(), System.currentTimeMillis() + 86400000, "Jose Pedro", false);
++        loanRepository.save(loan);
++
++        mockMvc.perform(
++                delete("/api/items/" + savedItem.getId())
++        ).andExpect(status().isBadRequest());
++    }
++}
+\ No newline at end of file
+Index: src/test/java/edu/unac/service/ItemServiceTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/edu/unac/service/ItemServiceTest.java b/src/test/java/edu/unac/service/ItemServiceTest.java
+new file mode 100644
+--- /dev/null	(date 1749593342676)
++++ b/src/test/java/edu/unac/service/ItemServiceTest.java	(date 1749593342676)
+@@ -0,0 +1,164 @@
++package edu.unac.service;
++
++import edu.unac.domain.Item;
++import edu.unac.domain.Loan;
++import edu.unac.repository.ItemRepository;
++import edu.unac.repository.LoanRepository;
++import org.junit.jupiter.api.BeforeEach;
++import org.junit.jupiter.api.Test;
++
++import java.util.List;
++import java.util.Optional;
++
++import static org.mockito.Mockito.*;
++import static org.junit.jupiter.api.Assertions.*;
++
++class ItemServiceTest {
++    ItemRepository itemRepository;
++    LoanRepository loanRepository;
++
++    @BeforeEach
++    void setUp() {
++        itemRepository = mock(ItemRepository.class);
++        loanRepository = mock(LoanRepository.class);
++    }
++
++    @Test
++    void createItemValidTest() {
++        Item item = new Item(null, "Laptop", "Electronics", 10, true);
++
++        when(itemRepository.findByName("Laptop")).thenReturn(Optional.empty());
++        when(itemRepository.save(item)).thenReturn(new Item(1L, "Laptop", "Electronics", 10, true));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++        Item createdItem = itemService.createItem(item);
++
++        assertEquals("Laptop", createdItem.getName());
++        assertEquals(10, createdItem.getTotalQuantity());
++    }
++
++    @Test
++    void createItemInvalidNameTest() {
++        Item item1 = new Item(null, "La", "Electronics", 10, true);
++        Item item2 = new Item(null, null, "Electronics", 10, true);
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.createItem(item1)
++        );
++
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.createItem(item2)
++        );
++    }
++
++    @Test
++    void createItemQuantityZeroTest() {
++        Item item = new Item(null, "Laptop", "Electronics", 0, true);
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.createItem(item));
++
++    }
++
++    @Test
++    void createItemDuplicateNameTest() {
++        Item item = new Item(null, "Laptop", "Electronics", 10, true);
++
++        when(itemRepository.findByName("Laptop")).thenReturn(Optional.of(item));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.createItem(item));
++    }
++
++    @Test
++    void getAllItemsTest() {
++        Item item1 = new Item(1L, "Laptop", "Electronics", 10, true);
++        Item item2 = new Item(2L, "Tablet", "Electronics", 5, true);
++
++        when(itemRepository.findAll()).thenReturn(List.of(item1, item2));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++        List<Item> items = itemService.getAllItems();
++
++        assertEquals(2, items.size());
++        assertTrue(items.contains(item1));
++        assertTrue(items.contains(item2));
++    }
++
++    @Test
++    void updateItemValidTest() {
++        Item existingItem = new Item(1L, "Laptop", "Electronics", 10, true);
++        Item updatedItem = new Item(null, "Gaming Laptop", "Electronics", 15, true);
++
++        when(itemRepository.findById(1L)).thenReturn(Optional.of(existingItem));
++        when(itemRepository.save(any(Item.class))).thenReturn(new Item(1L, "Gaming Laptop", "Electronics", 15, true));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++        Optional<Item> result = itemService.updateItem(1L, updatedItem);
++
++        assertTrue(result.isPresent());
++        assertEquals("Gaming Laptop", result.get().getName());
++        assertEquals(15, result.get().getTotalQuantity());
++    }
++
++    @Test
++    void updateItemInvalidNameTest() {
++        Item existingItem = new Item(1L, "Laptop", "Electronics", 10, true);
++        Item updatedItem1 = new Item(null, "La", "Electronics", 15, true);
++        Item updatedItem2 = new Item(null, null, "Electronics", 15, true);
++
++        when(itemRepository.findById(1L)).thenReturn(Optional.of(existingItem));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.updateItem(1L, updatedItem1));
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.updateItem(1L, updatedItem2));
++    }
++
++    @Test
++    void updateItemQuantityZeroTest() {
++        Item existingItem = new Item(1L, "Laptop", "Electronics", 10, true);
++        Item updatedItem = new Item(null, "Gaming Laptop", "Electronics", 0, true);
++
++        when(itemRepository.findById(1L)).thenReturn(Optional.of(existingItem));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++
++        assertThrows(IllegalArgumentException.class,
++                () -> itemService.updateItem(1L, updatedItem));
++    }
++
++    @Test
++    void deleteItemTest(){
++        Item item = new Item(1L, "Laptop", "Electronics", 10, true);
++
++        when(loanRepository.findById(item.getId())).thenReturn(Optional.of(new Loan()));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++        itemService.deleteItem(1L);
++
++        verify(itemRepository).deleteById(1L);
++    }
++
++    @Test
++    void deleteItemWithActiveLoansTest() {
++        Item item = new Item(1L, "Laptop", "Electronics", 10, true);
++        Loan loan = new Loan(1L, item.getId(), 1, System.currentTimeMillis(), System.currentTimeMillis() + 86400000, "Jose Pedro", false);
++
++        when(itemRepository.findById(item.getId())).thenReturn(Optional.of(item));
++        when(loanRepository.findByItemId(item.getId())).thenReturn(List.of(loan));
++
++        ItemService itemService = new ItemService(itemRepository, loanRepository);
++
++        assertThrows(IllegalStateException.class,
++                () -> itemService.deleteItem(item.getId()));
++    }
++}
+\ No newline at end of file
+Index: src/main/java/edu/unac/controller/LoanController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package edu.unac.controller;\r\n\r\nimport edu.unac.domain.Loan;\r\nimport edu.unac.service.LoanService;\r\nimport org.springframework.http.HttpStatus;\r\nimport org.springframework.http.ResponseEntity;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/api/loans\")\r\n@CrossOrigin(origins = \"*\")\r\npublic class LoanController {\r\n\r\nprivate final LoanService loanService;\r\n\r\n    public LoanController(LoanService loanService) {\r\n            this.loanService = loanService;\r\n    }\r\n\r\n    @GetMapping\r\n    public ResponseEntity<List<Loan>> getAllLoans() {\r\n        return ResponseEntity.ok(loanService.getAllLoans());\r\n    }\r\n\r\n    @PostMapping\r\n    public ResponseEntity<Loan> registerLoan(@RequestBody Loan loan) {\r\n        try {\r\n            Loan createdLoan = loanService.registerLoan(loan);\r\n            return ResponseEntity.status(HttpStatus.CREATED).body(createdLoan);\r\n        } catch (IllegalArgumentException | IllegalStateException e) {\r\n            return ResponseEntity.badRequest().body(null);\r\n        }\r\n    }\r\n\r\n    @PutMapping(\"/{id}/cancel\")\r\n    public ResponseEntity<Loan> cancelLoan(@RequestBody Long loanId) {\r\n        try {\r\n            Loan cancelled = loanService.cancelLoan(loanId);\r\n            return ResponseEntity.ok(cancelled);\r\n        } catch (IllegalArgumentException e) {\r\n            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();\r\n        } catch (IllegalStateException e) {\r\n            // Loan cannot be cancelled after it has started\r\n            return ResponseEntity.status(HttpStatus.CONFLICT).build();\r\n        }\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/edu/unac/controller/LoanController.java b/src/main/java/edu/unac/controller/LoanController.java
+--- a/src/main/java/edu/unac/controller/LoanController.java	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ b/src/main/java/edu/unac/controller/LoanController.java	(date 1749593342485)
+@@ -30,6 +30,7 @@
+             Loan createdLoan = loanService.registerLoan(loan);
+             return ResponseEntity.status(HttpStatus.CREATED).body(createdLoan);
+         } catch (IllegalArgumentException | IllegalStateException e) {
++            System.out.print("Error registering loan: " + e.getMessage());
+             return ResponseEntity.badRequest().body(null);
+         }
+     }
+Index: src/main/java/edu/unac/controller/ItemController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package edu.unac.controller;\r\n\r\nimport edu.unac.domain.Item;\r\nimport edu.unac.service.ItemService;\r\nimport org.springframework.http.HttpStatus;\r\nimport org.springframework.http.ResponseEntity;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/api/items\")\r\npublic class ItemController {\r\n    private final ItemService itemService;\r\n\r\n    public ItemController(ItemService itemService) {\r\n        this.itemService = itemService;\r\n    }\r\n\r\n    @PostMapping\r\n    public ResponseEntity<Item> createItem(@RequestBody Item item) {\r\n        try {\r\n            Item createdItem = itemService.createItem(item);\r\n            return ResponseEntity.status(HttpStatus.CREATED).body(createdItem);\r\n        } catch (IllegalArgumentException e) {\r\n            return ResponseEntity.badRequest().body(null);\r\n        }\r\n    }\r\n\r\n    @GetMapping\r\n    public ResponseEntity<List<Item>> getAllItems() {\r\n        return ResponseEntity.ok(itemService.getAllItems());\r\n    }\r\n\r\n    @PutMapping(\"/{id}\")\r\n    public ResponseEntity<?> updateItem(@PathVariable(\"id\") Long id, @RequestBody Item item) {\r\n        try {\r\n            return itemService.updateItem(id, item)\r\n                    .map(ResponseEntity::ok)\r\n                    .orElse(ResponseEntity.notFound().build());\r\n        } catch (IllegalArgumentException e) {\r\n            return ResponseEntity.badRequest().body(null);\r\n        }\r\n    }\r\n\r\n    @DeleteMapping(\"/{id}\")\r\n    public ResponseEntity<Void> deleteItem(@PathVariable(\"id\") Long id) {\r\n        itemService.deleteItem(id);\r\n        return ResponseEntity.noContent().build();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/edu/unac/controller/ItemController.java b/src/main/java/edu/unac/controller/ItemController.java
+--- a/src/main/java/edu/unac/controller/ItemController.java	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ b/src/main/java/edu/unac/controller/ItemController.java	(date 1749593342485)
+@@ -45,7 +45,11 @@
+ 
+     @DeleteMapping("/{id}")
+     public ResponseEntity<Void> deleteItem(@PathVariable("id") Long id) {
+-        itemService.deleteItem(id);
+-        return ResponseEntity.noContent().build();
++        try {
++            itemService.deleteItem(id);
++            return ResponseEntity.noContent().build();
++        } catch (IllegalStateException e) {
++            return ResponseEntity.badRequest().body(null);
++        }
+     }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"02e9e95c-9137-4634-874e-8e8c0cf03d4f\" name=\"Changes\" comment=\"Update workspace configuration and add RunManager settings for InventoryManagementSystem\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/edu/unac/controller/LoanControllerTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/edu/unac/controller/LoanControllerTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Jhosban&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Jhosban/inventory-management-back.git&quot;,\r\n    &quot;accountId&quot;: &quot;8bd21f58-c55d-4712-b585-79cfeb8cf528&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2xusFGPEigQkZHLcIZiA7grPIYk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.InventoryManagementSystem.executor\": \"Run\",\r\n    \"JUnit.LoanControllerTest.cancelLoanConflictTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanControllerTest.cancelLoanConflictTest1.executor\": \"Run\",\r\n    \"JUnit.LoanControllerTest.cancelLoanNotFoundTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanControllerTest.cancelLoanTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanControllerTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanControllerTest.getAllLoansTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanControllerTest.registerLoanInvalidItemTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanControllerTest.registerLoanTest.executor\": \"Run\",\r\n    \"JUnit.LoanServiceTest.availableItemsLessThanRequestedTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.calculateAvailableItemsTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.cancelLoanAlreadyCancelledTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.cancelLoanAlreadyStartedTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.cancelLoanNotFoundTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.cancelLoanTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.dateBeforeCurrentTest.executor\": \"Run\",\r\n    \"JUnit.LoanServiceTest.endDateBeforeStartDateTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.loanIsAlreadyCancelledTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.quantityLessThanOneTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.registerLoanItemNotAvailableTest.executor\": \"Coverage\",\r\n    \"JUnit.LoanServiceTest.registerLoanItemNotFoundTest.executor\": \"Run\",\r\n    \"JUnit.LoanServiceTest.registerLoanSavedTest.executor\": \"Run\",\r\n    \"JUnit.LoanServiceTest.startDateInThePastTest.executor\": \"Coverage\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"ramaJohn\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"D:/universidad/Semestre7/Calidad De Software/inventory-management-back1\",\r\n    \"settings.editor.selected.configurable\": \"preferences.editor\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.InventoryManagementSystem\">\r\n    <configuration name=\"InventoryManagementSystem\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"edu.unac.InventoryManagementSystem\" />\r\n      <module name=\"InventoryManagementSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"edu.unac.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LoanControllerTest.cancelLoanConflictTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"InventoryManagementSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"edu.unac.controller.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"edu.unac.controller\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"edu.unac.controller.LoanControllerTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"cancelLoanConflictTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LoanControllerTest.cancelLoanConflictTest1\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"InventoryManagementSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"edu.unac.controller.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"edu.unac.controller\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"edu.unac.controller.LoanControllerTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"cancelLoanConflictTest1\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LoanControllerTest.cancelLoanNotFoundTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"InventoryManagementSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"edu.unac.controller.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"edu.unac.controller\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"edu.unac.controller.LoanControllerTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"cancelLoanNotFoundTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LoanControllerTest.cancelLoanTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"InventoryManagementSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"edu.unac.controller.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"edu.unac.controller\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"edu.unac.controller.LoanControllerTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"cancelLoanTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.InventoryManagementSystem\" />\r\n        <item itemvalue=\"JUnit.LoanControllerTest.cancelLoanConflictTest1\" />\r\n        <item itemvalue=\"JUnit.LoanControllerTest.cancelLoanConflictTest\" />\r\n        <item itemvalue=\"JUnit.LoanControllerTest.cancelLoanNotFoundTest\" />\r\n        <item itemvalue=\"JUnit.LoanControllerTest.cancelLoanTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"02e9e95c-9137-4634-874e-8e8c0cf03d4f\" name=\"Changes\" comment=\"\" />\r\n      <created>1748799188190</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1748799188190</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Update workspace configuration and add RunManager settings for InventoryManagementSystem\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1748811842246</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1748811842246</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Update workspace configuration and add RunManager settings for InventoryManagementSystem\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Update workspace configuration and add RunManager settings for InventoryManagementSystem\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_cancelLoanTest.ic\" NAME=\"LoanServiceTest.cancelLoanTest Coverage Results\" MODIFIED=\"1749586472548\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest_cancelLoanNotFoundTest.ic\" NAME=\"LoanControllerTest.cancelLoanNotFoundTest Coverage Results\" MODIFIED=\"1749590672102\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest.ic\" NAME=\"LoanControllerTest Coverage Results\" MODIFIED=\"1749590494678\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest_registerLoanInvalidItemTest.ic\" NAME=\"LoanControllerTest.registerLoanInvalidItemTest Coverage Results\" MODIFIED=\"1749590367685\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest_getAllLoansTest.ic\" NAME=\"LoanControllerTest.getAllLoansTest Coverage Results\" MODIFIED=\"1749590454712\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_quantityLessThanOneTest.ic\" NAME=\"LoanServiceTest.quantityLessThanOneTest Coverage Results\" MODIFIED=\"1749585376358\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest_cancelLoanConflictTest.ic\" NAME=\"LoanControllerTest.cancelLoanConflictTest Coverage Results\" MODIFIED=\"1749590711470\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest_cancelLoanTest.ic\" NAME=\"LoanControllerTest.cancelLoanTest Coverage Results\" MODIFIED=\"1749590563031\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_calculateAvailableItemsTest.ic\" NAME=\"LoanServiceTest.calculateAvailableItemsTest Coverage Results\" MODIFIED=\"1749585587589\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_availableItemsLessThanRequestedTest.ic\" NAME=\"LoanServiceTest.availableItemsLessThanRequestedTest Coverage Results\" MODIFIED=\"1749585665331\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_cancelLoanAlreadyStartedTest.ic\" NAME=\"LoanServiceTest.cancelLoanAlreadyStartedTest Coverage Results\" MODIFIED=\"1749587141713\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_cancelLoanNotFoundTest.ic\" NAME=\"LoanServiceTest.cancelLoanNotFoundTest Coverage Results\" MODIFIED=\"1749585770481\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_startDateInThePastTest.ic\" NAME=\"LoanServiceTest.startDateInThePastTest Coverage Results\" MODIFIED=\"1749585414737\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest.ic\" NAME=\"LoanServiceTest Coverage Results\" MODIFIED=\"1749586933343\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_cancelLoanAlreadyCancelledTest.ic\" NAME=\"LoanServiceTest.cancelLoanAlreadyCancelledTest Coverage Results\" MODIFIED=\"1749587213010\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_loanIsAlreadyCancelledTest.ic\" NAME=\"LoanServiceTest.loanIsAlreadyCancelledTest Coverage Results\" MODIFIED=\"1749585919830\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_registerLoanItemNotAvailableTest.ic\" NAME=\"LoanServiceTest.registerLoanItemNotAvailableTest Coverage Results\" MODIFIED=\"1749585208959\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanServiceTest_endDateBeforeStartDateTest.ic\" NAME=\"LoanServiceTest.endDateBeforeStartDateTest Coverage Results\" MODIFIED=\"1749585492361\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.service.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/inventory_management_back1$LoanControllerTest_cancelLoanConflictTest1.ic\" NAME=\"LoanControllerTest.cancelLoanConflictTest1 Coverage Results\" MODIFIED=\"1749590856261\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\">\r\n      <FILTER>edu.unac.controller.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9aeccf39045b4ca0202eab943f04fe8943f3cc19)
++++ b/.idea/workspace.xml	(date 1749593428306)
+@@ -5,10 +5,21 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem">
++      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/edu/unac/config/WebConfig.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/edu/unac/drivers/chromedriver.exe" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/edu/unac/steps/InventorySteps.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/edu/unac/controller/ItemControllerTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/edu/unac/service/ItemServiceTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/resources/Inventory.feature" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/LoanService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/controller/LoanControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/unac/controller/LoanControllerTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/unac/service/LoanServiceTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/ItemController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/controller/LoanController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/service/ItemService.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -56,40 +67,19 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "Application.InventoryManagementSystem.executor": "Run",
+-    "JUnit.LoanControllerTest.cancelLoanConflictTest.executor": "Coverage",
+-    "JUnit.LoanControllerTest.cancelLoanConflictTest1.executor": "Run",
+-    "JUnit.LoanControllerTest.cancelLoanNotFoundTest.executor": "Coverage",
+-    "JUnit.LoanControllerTest.cancelLoanTest.executor": "Coverage",
+-    "JUnit.LoanControllerTest.executor": "Coverage",
+-    "JUnit.LoanControllerTest.getAllLoansTest.executor": "Coverage",
+-    "JUnit.LoanControllerTest.registerLoanInvalidItemTest.executor": "Coverage",
+-    "JUnit.LoanControllerTest.registerLoanTest.executor": "Run",
+-    "JUnit.LoanServiceTest.availableItemsLessThanRequestedTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.calculateAvailableItemsTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.cancelLoanAlreadyCancelledTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.cancelLoanAlreadyStartedTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.cancelLoanNotFoundTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.cancelLoanTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.dateBeforeCurrentTest.executor": "Run",
+-    "JUnit.LoanServiceTest.endDateBeforeStartDateTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.loanIsAlreadyCancelledTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.quantityLessThanOneTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.registerLoanItemNotAvailableTest.executor": "Coverage",
+-    "JUnit.LoanServiceTest.registerLoanItemNotFoundTest.executor": "Run",
+-    "JUnit.LoanServiceTest.registerLoanSavedTest.executor": "Run",
+-    "JUnit.LoanServiceTest.startDateInThePastTest.executor": "Coverage",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "ramaJohn",
++    "git-widget-placeholder": "Merging ramaJohn",
+     "ignore.virus.scanning.warn.message": "true",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1",
+     "settings.editor.selected.configurable": "preferences.editor"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="Application.InventoryManagementSystem">
++  <component name="RunManager">
+     <configuration name="InventoryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+       <option name="MAIN_CLASS_NAME" value="edu.unac.InventoryManagementSystem" />
+       <module name="InventoryManagementSystem" />
+       <extension name="coverage">
+@@ -102,77 +92,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="LoanControllerTest.cancelLoanConflictTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="InventoryManagementSystem" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="edu.unac.controller.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
+-      <option name="METHOD_NAME" value="cancelLoanConflictTest" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="LoanControllerTest.cancelLoanConflictTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="InventoryManagementSystem" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="edu.unac.controller.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
+-      <option name="METHOD_NAME" value="cancelLoanConflictTest1" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="LoanControllerTest.cancelLoanNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="InventoryManagementSystem" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="edu.unac.controller.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
+-      <option name="METHOD_NAME" value="cancelLoanNotFoundTest" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="LoanControllerTest.cancelLoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="InventoryManagementSystem" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="edu.unac.controller.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="edu.unac.controller" />
+-      <option name="MAIN_CLASS_NAME" value="edu.unac.controller.LoanControllerTest" />
+-      <option name="METHOD_NAME" value="cancelLoanTest" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Application.InventoryManagementSystem" />
+-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanConflictTest1" />
+-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanConflictTest" />
+-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanNotFoundTest" />
+-        <item itemvalue="JUnit.LoanControllerTest.cancelLoanTest" />
++        <item itemvalue="Application.InventoryManagementSystem" />
++        <item itemvalue="Application.InventoryManagementSystem" />
++        <item itemvalue="Application.InventoryManagementSystem" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -237,6 +162,9 @@
+       <FILTER>edu.unac.controller.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_calculateAvailableItemsTest.ic" NAME="LoanServiceTest.calculateAvailableItemsTest Coverage Results" MODIFIED="1749585587589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
++      <FILTER>edu.unac.service.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749579889244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+       <FILTER>edu.unac.service.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_availableItemsLessThanRequestedTest.ic" NAME="LoanServiceTest.availableItemsLessThanRequestedTest Coverage Results" MODIFIED="1749585665331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+@@ -252,10 +180,16 @@
+       <FILTER>edu.unac.service.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest.ic" NAME="LoanServiceTest Coverage Results" MODIFIED="1749586933343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
++      <FILTER>edu.unac.service.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+       <FILTER>edu.unac.service.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_cancelLoanAlreadyCancelledTest.ic" NAME="LoanServiceTest.cancelLoanAlreadyCancelledTest Coverage Results" MODIFIED="1749587213010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+       <FILTER>edu.unac.service.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/InventoryManagementSystem$DeviceControllerTest.ic" NAME="DeviceControllerTest Coverage Results" MODIFIED="1749582425782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
++      <FILTER>edu.unac.controller.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/inventory_management_back1$LoanServiceTest_loanIsAlreadyCancelledTest.ic" NAME="LoanServiceTest.loanIsAlreadyCancelledTest Coverage Results" MODIFIED="1749585919830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+       <FILTER>edu.unac.service.*</FILTER>
+Index: .idea/material_theme_project_new.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/material_theme_project_new.xml b/.idea/material_theme_project_new.xml
+new file mode 100644
+--- /dev/null	(date 1749593342482)
++++ b/.idea/material_theme_project_new.xml	(date 1749593342482)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MaterialThemeProjectNewConfig">
++    <option name="metadata">
++      <MTProjectMetadataState>
++        <option name="userId" value="-7428b2ee:1975a76f678:-7eab" />
++      </MTProjectMetadataState>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
