@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_13_33__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_6_2025_21_49__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/unac/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/unac/domain/Item.java" afterDir="false" />
-    </list>
+    <list default="true" id="02e9e95c-9137-4634-874e-8e8c0cf03d4f" name="Changes" comment="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="testLoan" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +41,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xusFGPEigQkZHLcIZiA7grPIYk" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,14 +53,14 @@
     "Application.InventoryManagementSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "jhosbanBranch",
+    "git-widget-placeholder": "estructuraTest",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/universidad/Semestre7/Calidad De Software/inventory-management-back1",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InventoryManagementSystem">
+  <component name="RunManager">
     <configuration name="InventoryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -83,75 +76,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemServiceTest.createItemInvalidNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
-      <option name="METHOD_NAME" value="createItemInvalidNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemServiceTest.createItemValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
-      <option name="METHOD_NAME" value="createItemValidTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemServiceTest.updateItemValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="InventoryManagementSystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unac.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.unac.service" />
-      <option name="MAIN_CLASS_NAME" value="edu.unac.service.ItemServiceTest" />
-      <option name="METHOD_NAME" value="updateItemValidTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ItemServiceTest.updateItemValidTest" />
-        <item itemvalue="JUnit.ItemServiceTest.createItemValidTest" />
-        <item itemvalue="JUnit.ItemServiceTest.createItemInvalidNameTest" />
-        <item itemvalue="JUnit.ItemServiceTest" />
+        <item itemvalue="Application.InventoryManagementSystem" />
+        <item itemvalue="Application.InventoryManagementSystem" />
+        <item itemvalue="Application.InventoryManagementSystem" />
         <item itemvalue="Application.InventoryManagementSystem" />
       </list>
     </recent_temporary>
@@ -190,13 +119,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
     <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration and add RunManager settings for InventoryManagementSystem" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest.ic" NAME="ItemServiceTest Coverage Results" MODIFIED="1749568470169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/InventoryManagementSystem$ItemServiceTest_updateItemValidTest.ic" NAME="ItemServiceTest.updateItemValidTest Coverage Results" MODIFIED="1749569298512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>edu.unac.service.*</FILTER>
-    </SUITE>
   </component>
 </project>
